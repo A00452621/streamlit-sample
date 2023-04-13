@@ -1,6 +1,5 @@
 import streamlit as st 
 from joblib import load
-from sklearn import tree
 
 st.title("Deploying the model")
 LABELS=['setosa', 'versicolor', 'virginica']
